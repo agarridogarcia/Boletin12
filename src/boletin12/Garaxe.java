@@ -33,11 +33,7 @@ public class Garaxe {
     public static int getNumPlazas() {
         return numPlazas;
     }
-    public String matricula(){
-        Scanner entrada=new Scanner(System.in);
-        return entrada.nextLine();
-        
-    }
+    
     public void aparcar (){
     
          if(numCoches<numPlazas&&numCoches>=0){
